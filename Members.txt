@@ -1,0 +1,8 @@
+Project Name:
+	Stock Management System.
+
+Group Members:
+	1 Hizbullah Sahil
+	2 M Hakim Hemat
+	3 Mohammadullah mohammadi
+	
