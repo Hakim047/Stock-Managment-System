@@ -1,0 +1,24 @@
+			Requirement of Stock Management System
+
+	1: We need to have a ‘manager’ in the stock management system
+                           Manager (Name, ID, Contact number, Email).
+
+	2: We must have ‘inventory’ in the stock
+	         Inventory (item name, invoice number, quantity).
+
+	3: We have to have ‘Storage’ in the stock
+	         Storage (unique Id, name, code, items).     
+
+	4: We have to have ‘products’ in the stock
+	         Product (name, unique id, barcode, description).
+
+	5: We need to supplier in the stock
+	         Supplier (name, date of supply, invoice No, item name, Reg No).
+
+	6: We should be having shipment in the stock
+	         Shipment(signature, date time, address, serial No).
+
+			
+
+
+
