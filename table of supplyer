@@ -1,0 +1,20 @@
+create table supplier(
+name varchar(50) not null,
+suply_date NUMBER,
+invoice_no int not null,
+item_name varchar(100),
+reg_no number not null);
+
+select * from supplier;
+
+insert into supplier values('mohammadullah',1401,1212,'car',1111);
+
+create table shipment(
+id int NOT null,
+date_time date,
+address VARCHAR(60) not null,
+serial_no NUMBER );
+ 
+select * from shipment;
+ 
+insert into shipment values(101,1402,'kabul afghanistan',9999); 
