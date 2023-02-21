@@ -1,0 +1,39 @@
+create table supplier(
+name varchar(50) not null,
+suply_date NUMBER,
+invoice_no int not null,
+item_name varchar(100),
+reg_no number not null);
+
+select * from supplier;
+
+insert into supplier values('hakim',1401,1111,'car',2000);
+insert into supplier values('mohammadullah',1402,1112,'mothorbicke',2001);
+insert into supplier values('hizbullah',1403,1113,'bike',2002);
+insert into supplier values('mohammadi',1404,1114,'machine',2003);
+insert into supplier values('hemat',1405,1115,'tire',2004);
+insert into supplier values('sahil',1406,1116,'vhicle',2005);
+insert into supplier values('ershad',1407,1117,'taxi',1111);
+insert into supplier values('ahmad',1408,1118,'grage',1111);
+
+select * from supplier;
+
+create table shipment(
+id int NOT null,
+date_time date,
+address VARCHAR(60) not null,
+serial_no NUMBER );
+
+select * from shipment;
+ 
+insert into shipment values(001,1301,'wardak',1200); 
+insert into shipment values(002,1302,'kabul',1201); 
+insert into shipment values(003,1303,'kandhar',1202); 
+insert into shipment values(004,1304,'ghazni',1203); 
+insert into shipment values(005,1305,'zabul',1204); 
+insert into shipment values(006,1306,'khost',1205); 
+insert into shipment values(007,1307,'bamyan',1206); 
+insert into shipment values(008,1308,'parvan',1207);
+
+
+select * from shipment; 
